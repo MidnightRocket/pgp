@@ -22,3 +22,16 @@ This key was generated in an air-gaped environment, and then imported to an Open
 The `Daily usage key` is also generated in an air-gaped environment, and imported to another OpenPGP smart card. This key is carried around, and is used in daily operations, like signing commits etc. This key is naturally more susceptible to loss or theft, than the `Long-term Root key`. In case of loss or theft the `Long-term Root key` can be used to establish trust in a new `Daily usage key`.
 
 I use this scheme over the 'separated main and sub keys', as I think it is a more flexible approach.
+
+
+
+<br><br>
+
+A key specifically for signing git commits on mobile devices: 
+
+```
+pub   ed25519/E688E1437173E2F8 2023-06-12 [SC] [expires: 2025-06-11]
+      Key fingerprint = C56D 2BA5 845A 308E 3D3F  9006 E688 E143 7173 E2F8
+uid                 [ultimate] MidnightRocket (For signing git commits on mobile devices only) <git@midnightrocket.dev>
+sub   ed25519/8468965DB6E9895B 2023-06-12 [S] [expires: 2025-06-11]
+```
