@@ -8,11 +8,11 @@ uid		MidnightRocket (Long-term Root key) <45201103+MidnightRocket@users.noreply.
 
 And a daily use key:
 ```
-pub	ed25519/DA1FD6C6670E36D7 2022-05-09 [SC] [expires: 2023-05-09]
+pub	ed25519/DA1FD6C6670E36D7 2022-05-09 [SC]
 	Key fingerprint = DBFB 2472 B397 7CD7 93FE  A9D1 DA1F D6C6 670E 36D7
 uid		MidnightRocket (Daily usage key) <45201103+MidnightRocket@users.noreply.github.com>
-sub	cv25519/A2443C54AF560EC2 2022-05-09 [E] [expires: 2023-05-09]
-sub	ed25519/CBCE0BC869046ECE 2022-05-09 [A] [expires: 2023-05-09]
+sub	cv25519/A2443C54AF560EC2 2022-05-09 [E]
+sub	ed25519/CBCE0BC869046ECE 2022-05-09 [A]
 ```
 
 
